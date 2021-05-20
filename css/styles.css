@@ -1,0 +1,321 @@
+@import url("../css/fonts.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*------------------------------------------------*/
+
+body {
+  font-family: "Gilroy", sans-serif;
+  color: #070707;
+}
+
+.container {
+  max-width: 944px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 42px;
+  text-align: center;
+}
+
+.header {
+  background: #ffffff;
+}
+
+.container--header {
+  border-bottom: 1px solid #828282;
+  padding: 40px 16px;
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__link {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #828282;
+}
+
+.header__link:hover {
+  color: #070707;
+}
+
+.main-page {
+  background: #ffffff;
+}
+
+.container--main-page {
+  padding: 40px 16px 104px 16px;
+}
+
+.main-page__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0 0 50px 0;
+}
+
+.main-page__name {
+  font-size: 47px;
+  line-height: 59px;
+  font-weight: bold;
+}
+
+.main-page__specialization {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.lang__row {
+  width: 20px;
+  height: 65px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+.lang__text {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #828282;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+}
+
+.lang__text:hover {
+  color: #070707;
+}
+
+.main-page__img-wrap {
+  height: auto;
+}
+
+.main-page__img-wrap img {
+  width: 100%;
+}
+
+.about-me {
+  background: #f6f6f6;
+}
+
+.container--about-me {
+  padding: 120px 16px 107px 16px;
+}
+
+.title--about-me {
+  margin: 0 0 20px 0;
+}
+
+.about-me__text {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.about-me__desc {
+  margin: 0 0 30px 0;
+}
+
+.about-me__desc:last-child {
+  margin: 0;
+}
+
+.skills {
+  background: #ffffff;
+}
+
+.container--skills {
+  padding: 91px 16px 110px 16px;
+}
+
+.title--skills {
+  margin: 0 0 69px 0;
+}
+
+.skills__subtitle {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin: 0 0 83px 0;
+}
+
+.skills__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.skills__col {
+  padding: 0 16px;
+}
+
+.portfolio {
+  background: #f6f6f6;
+}
+
+.container--portfolio {
+  padding: 112px 16px 99px 16px;
+}
+
+.title--portfolio {
+  margin: 0 0 53px 0;
+}
+
+.portfolio__img-wrap {
+  height: auto;
+  margin: 0 0 45px 0;
+}
+
+.portfolio__img-wrap img {
+  width: 100%;
+}
+
+.portfolio__link {
+  display: block;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+  margin: 0 0 99px 0;
+}
+
+.portfolio__link:last-child {
+  margin: 0;
+}
+
+.contacts {
+  background: #ffffff;
+}
+
+.container--contacts {
+  padding: 114px 16px 123px 16px;
+}
+
+.title--contacts {
+  margin: 0 0 30px 0;
+}
+
+.subtitle__contacts {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.contacts__btn {
+  display: block;
+  width: 180px;
+  height: 42px;
+  background: #070707;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 9px;
+}
+
+.contacts__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 78px -31px 46px -31px;
+}
+
+.contacts__col {
+  padding: 0 31px;
+}
+
+.contacts__text {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
