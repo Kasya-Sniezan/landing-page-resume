@@ -9,12 +9,29 @@
   <body>
     <header class="header">
       <div class="container container--header">
-        <nav class="header__row">
-          <a href="#" class="header__link">Home</a>
-          <a href="#" class="header__link">About me</a>
-          <a href="#" class="header__link">Skills</a>
-          <a href="#" class="header__link">Portfolio</a>
-          <a href="#" class="header__link">Contacts</a>
+        <div class="header__icon">
+          <span></span>
+        </div>
+        <nav class="header__body">
+          <ul class="menu__list">
+            <li>
+              <a data-goto=".main-page" href="#" class="menu__link">Home</a>
+            </li>
+            <li>
+              <a data-goto=".about-me" href="#" class="menu__link">About me</a>
+            </li>
+            <li>
+              <a data-goto=".skills" href="#" class="menu__link">Skills</a>
+            </li>
+            <li>
+              <a data-goto=".portfolio" href="#" class="menu__link"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a data-goto=".contacts" href="#" class="menu__link">Contacts</a>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
@@ -119,5 +136,6 @@
         </p>
       </div>
     </section>
+    <script src="js/script.js"></script>
   </body>
 </html>
