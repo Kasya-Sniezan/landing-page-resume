@@ -1,0 +1,20 @@
+.about-me {
+    background: $light-beige-background;
+    .container--about-me {
+        padding: 120px 16px 107px 16px;
+        .title--about-me {
+            margin: 0 0 20px 0;
+        }
+        .about-me__text {
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+        }
+        .about-me__desc {
+            margin: 0 0 30px 0;
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+}
