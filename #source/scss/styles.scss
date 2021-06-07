@@ -1,0 +1,38 @@
+@import "null-style.scss";
+
+$black: #070707;
+$white-background: #ffffff;
+$light-beige-background: #f6f6f6;
+$brown: #828282;
+
+body {
+    font-family: "Gilroy", sans-serif;
+    color: $black;
+  }
+  body._lock {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+  
+.container {
+    max-width: 944px;
+    margin: 0 auto;
+}
+  
+.title {
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 42px;
+    text-align: center;
+}
+
+@import "header.scss";
+@import "main-page.scss";
+@import "about-me.scss";
+@import "skills.scss";
+@import "portfolio.scss";
+@import "contacts.scss";
