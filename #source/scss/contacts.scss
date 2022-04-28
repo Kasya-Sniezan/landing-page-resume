@@ -1,46 +1,57 @@
 .contacts {
-    background: $white-background;
-    .container--contacts {
-        padding: 114px 16px 123px 16px;
-        .title--contacts {
-            margin: 0 0 30px 0;
-        }
-        .subtitle__contacts {
-            font-size: 18px;
-            line-height: 22px;
-            text-align: center;
-            margin: 0 0 30px 0;
-        } 
-        .contacts__btn {
-            display: block;
-            width: 180px;
-            height: 42px;
-            background: $black;
-            border-radius: 10px;
-            font-size: 18px;
-            font-weight: bold;
-            line-height: 22px;
-            text-align: center;
-            color: $white-background;
-            margin: 0 auto;
-            padding: 9px;
-        }
-        .contacts__row {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 78px -31px 46px -31px;
-            flex-wrap: wrap;
-            .contacts__col {
-                padding: 0 31px;
-                margin: 0px 0px 50px 0px;
-            }
-        }
-        .contacts__text {
-            font-size: 14px;
-            line-height: 17px;
-            text-align: center;
-            color: $brown;
-        }
+  background: $white-background;
+
+  .container--contacts {
+    padding: 114px 16px 123px 16px;
+
+    .title--contacts {
+      margin: 0 0 30px 0;
     }
+
+    .subtitle__contacts {
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      margin: 0 0 30px 0;
+    }
+
+    .contacts__btn {
+      display: block;
+      width: 180px;
+      height: 42px;
+      background: $black;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 22px;
+      text-align: center;
+      color: $white-background;
+      margin: 0 auto;
+      padding: 9px;
+
+      &:hover {
+        font-size: 19px;
+      }
+    }
+
+    .contacts__row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 78px -31px 46px -31px;
+      flex-wrap: wrap;
+
+      .contacts__col {
+        padding: 0 31px;
+        margin: 0px 0px 50px 0px;
+      }
+    }
+
+    .contacts__text {
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: $brown;
+    }
+  }
 }
